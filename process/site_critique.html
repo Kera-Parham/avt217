@@ -16,7 +16,7 @@ h1{
 	font-size: 4em;
 	font-family: 'Courier New', Courier, monospace;
 }
-h2{
+h2, .url{
 	font-family: 'Courier New', Courier, monospace;
 color:#4f0512;
 }
@@ -28,10 +28,14 @@ img{
 	width: 50%;
 	height: 50%;
 }
-.url{
+.url, #url{
 text-align: center;
 text-decoration: none;
-color: #ff4577;
+
+}
+
+#url{
+	color: #ff4577;
 }
 
 #imga{
@@ -40,16 +44,16 @@ color: #ff4577;
 }
 
 a:visited{
-	color: #4f0512;
+	color:#4f0512;
 }
 a:hover{
-	color:#ff4577
+	color: #ff4577;
 }
 </style>
 
 <body>
 	<h1 ><a href="https://www.myswitzerland.com/en-us/" class="url"> Switzerland </a></h1>
-	<h3 class="url">https://www.myswitzerland.com/en-us/</h3>
+	<h3 id="url">https://www.myswitzerland.com/en-us/</h3>
 	<img src="img/switzhomepage.png" alt="The screen shot of the website" id="imga">
 	<h2>Navigation</h2>
 	<p>I really like the navigation of the website. I like the hover effects,
