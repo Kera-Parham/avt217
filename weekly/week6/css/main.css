@@ -1,0 +1,41 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.box1 {
+  position: absolute;
+  right: 5px;
+  top: 40px;
+  background-color: red;
+}
+.box2 {
+  position: fixed;
+  top: 0px;
+  left: 30px;
+  padding: 20px 50px;
+  background-color: blue;
+}
+
+.insidebox2 {
+  background-color: blueviolet;
+}
+
+.box3 {
+  background-color: cadetblue;
+  position: sticky;
+  top: 0;
+}
+.box4 {
+  float: right;
+  background-color: yellowgreen;
+}
+.box5 {
+  float: left;
+  background-color: coral;
+}
