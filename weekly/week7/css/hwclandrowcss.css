@@ -1,0 +1,34 @@
+.flex-cont {
+  width: 908px;
+  height: 578px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#widebox1 {
+  background-color: #d57878;
+  width: 100%;
+  height: 67px;
+  color: #d57878;
+}
+
+#widebox2 {
+  background-color: #b88b6a;
+  width: 100%;
+  height: 31px;
+  color: #b88b6a;
+}
+.box {
+  width: 207px;
+  height: 382px;
+  background-color: #ceb2a1;
+  color: #ceb2a1;
+}
+#widebox3 {
+  width: 100%;
+  height: 55px;
+  background-color: #743939;
+  color: #743939;
+}
