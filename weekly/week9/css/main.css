@@ -31,7 +31,11 @@ p {
 /* tell browser to do the followings when screen is at and narrower than 768px */
 @media only screen and (max-width: 768px) {
   body {
-    background-image: none;
+    background: url("../img/xmaspattern.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   #container {
@@ -40,7 +44,7 @@ p {
 
   p {
     text-transform: none;
-    color: red;
+    color: white;
   }
 
   #cursive {
@@ -48,7 +52,7 @@ p {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: red;
+    color: white;
   }
 
   .mobile-only {
