@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  text-align: center;
+  background: url("../img/tree.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  margin-top: 40vh;
+}
+
+p {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 4em;
+}
+
+/* tell browser don't display it when screen is wider than 768px */
+.mobile-only {
+  display: none;
+}
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+
+  #container {
+    margin-top: 20vh;
+  }
+
+  p {
+    text-transform: none;
+    color: red;
+  }
+
+  #cursive {
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  /* Now the style and content for desktop will not be displied */
+  .desktop-only {
+    display: none;
+  }
+} /* don't forget to close the styles for mobile*/
