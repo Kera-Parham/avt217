@@ -1,0 +1,201 @@
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+/*Navigation bar*/
+.nav {
+  background-color: #d52b1e;
+  top: 0;
+  overflow: hidden;
+  font-family: "Lexend", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #395968;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.nav-right {
+  float: right;
+}
+/*end of nav css*/
+
+/*start of home page css*/
+
+#home {
+  background: url("../img/omid-visuals--QCaTH3O5Nk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  background-position: center;
+  margin-top: 5%;
+}
+
+.hometext {
+  padding: 10% 0;
+}
+.centered {
+  text-align: center;
+  font-size: 15vh;
+  color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#centered2 {
+  font-family: "Libre Bodoni", serif;
+  text-align: center;
+  font-size: 15vh;
+  color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mas {
+  margin-bottom: 10%;
+}
+
+.aboutart {
+  text-indent: 5%;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+/*home page responsiveness*/
+@media only screen and (max-width: 768px) {
+  .centered {
+    text-align: center;
+    font-size: 12vh;
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*end of home page css*/
+
+/*footer styling*/
+.footer {
+  background-color: #d52b1e;
+  top: 0;
+  overflow: hidden;
+  font-family: "Lexend", sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 2% 0;
+}
+
+/* Add a color to the active/current link */
+.active {
+  color: white;
+  margin-left: 3%;
+  font-size: 5vh;
+}
+
+/* Right-aligned section inside the top navigation */
+.footer-right {
+  float: right;
+  font-size: 5vh;
+  margin-right: 3%;
+  font-weight: 300;
+}
+/*start of about page css*/
+.background {
+  background: url("../img/switzerland-lake-zurich-region-zurich.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  background-position: center;
+  margin-top: 5%;
+  padding: 25%;
+}
+article {
+  margin-bottom: 20%;
+}
+.aboutbox {
+  background-color: #d52b1e;
+  font-family: "Libre Bodoni", serif;
+  color: white;
+  font-size: 15vh;
+  text-align: center;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop-only {
+  position: absolute;
+  top: 142%;
+  right: 20px;
+  background-color: #395968;
+  color: white;
+  font-size: 15vh;
+  font-family: "Libre Bodoni", serif;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mobile-only,
+.aboutbox-mobile {
+  display: none;
+}
+
+/*about page responsiveness*/
+@media only screen and (max-width: 768px) {
+  .mobile-only {
+    display: block;
+    background-color: #395968;
+    color: white;
+    font-size: 15vh;
+    font-family: "Libre Bodoni", serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutbox-mobile {
+    display: block;
+    background-color: #d52b1e;
+    color: white;
+    font-size: 15vh;
+    font-family: "Libre Bodoni", serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desktop-only,
+  .aboutbox {
+    display: none;
+  }
+}
