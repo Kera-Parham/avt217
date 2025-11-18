@@ -1,5 +1,6 @@
 body {
   font-family: "Lexend", sans-serif;
+  overflow-x: hidden;
 }
 
 /*Navigation bar*/
@@ -110,10 +111,15 @@ body {
 }
 
 /* Add a color to the active/current link */
-.active {
+.contact {
+  top: 5px;
+}
+.footer a {
   color: white;
-  margin-left: 3%;
-  font-size: 5vh;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
 }
 
 /* Right-aligned section inside the top navigation */
@@ -122,6 +128,11 @@ body {
   font-size: 5vh;
   margin-right: 3%;
   font-weight: 300;
+}
+
+.fa-solid,
+.fa-brands {
+  margin-left: 50px;
 }
 /*start of about page css*/
 .background {
@@ -135,7 +146,7 @@ body {
 article {
   margin-bottom: 20%;
 }
-.aboutbox {
+.titlebox {
   background-color: #d52b1e;
   font-family: "Libre Bodoni", serif;
   color: white;
@@ -198,4 +209,63 @@ article {
   .aboutbox {
     display: none;
   }
+}
+
+/*sight page css*/
+.titleboxsight {
+  background-color: #d52b1e;
+  font-family: "Libre Bodoni", serif;
+  color: white;
+  font-size: 15vh;
+  text-align: center;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.imgsight {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.sight1title {
+  position: absolute;
+  top: 142%;
+  right: 20px;
+  background-color: #395968;
+  color: white;
+  font-size: 15vh;
+  font-family: "Libre Bodoni", serif;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sight1subtitle {
+  color: #d52b1e;
+  font-size: 8vh;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.sight1text {
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 2%;
+}
+.sight1pricestitle {
+  font-weight: bold;
+  color: #d52b1e;
+  font-size: 8vh;
+  margin-left: 2%;
+}
+.sight1priceslist {
+  margin-bottom: 20px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #395968;
+  margin-left: 2%;
 }
