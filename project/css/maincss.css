@@ -146,7 +146,7 @@ body {
   margin-bottom: 10%;
 }
 
-.aboutart {
+.aboutart1 {
   text-indent: 5%;
   font-size: 28px;
   font-weight: bold;
@@ -154,6 +154,15 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 8%;
+}
+.aboutart {
+  text-indent: 5%;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 /*home page responsiveness*/
 @media only screen and (max-width: 768px) {
@@ -214,7 +223,7 @@ body {
   padding: 25%;
 }
 article {
-  margin-bottom: 20%;
+  margin-bottom: 8%;
 }
 .titlebox {
   background-color: #d52b1e;
@@ -230,7 +239,7 @@ article {
 
 .desktop-only {
   position: absolute;
-  top: 142%;
+  top: 139%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -292,7 +301,6 @@ article {
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
 }
 
 .imgsight {
@@ -316,7 +324,7 @@ article {
 
 .sight1title {
   position: absolute;
-  top: 155%;
+  top: 138%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -328,7 +336,7 @@ article {
 }
 #sight2title {
   position: absolute;
-  top: 368%;
+  top: 349%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -340,7 +348,7 @@ article {
 }
 #sight3title {
   position: absolute;
-  top: 568%;
+  top: 549%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -353,7 +361,7 @@ article {
 
 #sight4title {
   position: absolute;
-  top: 755%;
+  top: 738%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -365,7 +373,7 @@ article {
 }
 #sight5title {
   position: absolute;
-  top: 950%;
+  top: 933%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -377,7 +385,7 @@ article {
 }
 #sight6title {
   position: absolute;
-  top: 1153%;
+  top: 1135%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -389,7 +397,7 @@ article {
 }
 #sight7title {
   position: absolute;
-  top: 1355%;
+  top: 1336%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -401,7 +409,7 @@ article {
 }
 #sight8title {
   position: absolute;
-  top: 1555%;
+  top: 1536%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -413,7 +421,7 @@ article {
 }
 #sight9title {
   position: absolute;
-  top: 1753%;
+  top: 1734%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -425,7 +433,7 @@ article {
 }
 #sight10title {
   position: absolute;
-  top: 1961%;
+  top: 1943%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -464,6 +472,7 @@ article {
   color: #395968;
   margin-left: 2%;
 }
+/*Back to top button*/
 #myBtn {
   font-family: "Libre Bodoni", serif;
   display: none;
@@ -478,4 +487,68 @@ article {
   color: white;
   cursor: pointer;
   padding: 15px;
+}
+/*24 HOUT PAGE*/
+#morningbox {
+  margin-top: 5%;
+  background-color: #395968;
+  font-family: "Libre Bodoni", serif;
+  color: white;
+  font-size: 10vh;
+  margin-left: 15%;
+  padding: 1% 2.5% 0 7.3%;
+  width: 50%;
+}
+.tftitle {
+  border-bottom: 5px solid #d52b1e;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.tftitle1 {
+  border-bottom: 5px solid #d52b1e;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.tftitle2 {
+  border-bottom: 5px solid #d52b1e;
+  width: 7%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.tftitle3 {
+  border-bottom: 5px solid #d52b1e;
+  width: 18%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.tftitle4 {
+  border-bottom: 5px solid #d52b1e;
+  width: 12%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.tfsights {
+  margin-left: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tfsights1 {
+  margin-left: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.tf1text {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 15%;
+  width: 75%;
+  padding-bottom: 2%;
 }
