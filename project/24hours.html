@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playwrite+DE+SAS:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
   </head>
 
   <body class="section">
@@ -31,5 +35,133 @@
         </div>
       </div>
     </nav>
+    <div class="24hr-content">
+      <div class="titlebox">24 Hours</div>
+      <button onclick="topFunction()" id="myBtn" title="top">
+        Back to top
+      </button>
+
+      <div id="morningbox">Morning</div>
+      <div class="tfcontent">
+        <div><h2 class="tftitle">Differente Hotel Krone Unterstrass</h2></div>
+        <img src="img/unsere-hausspezialitat.jpg" class="tfsights" />
+        <p class="tf1text">
+          The cosy & traditional "differente" and the elegant & stylish
+          "differente più" use only high-quality, seasonal and regional products
+          for their dishes. In both restaurants we offer the same menu and spoil
+          you with Mediterranean dishes and Swiss specialitiesOur unique tartare
+          creations are also very popular. We take pleasure in providing perfect
+          service. This is one of our top priorities. Food that is flambéed,
+          filleted and carved at the table will make your meal a memorable
+          occasion. 
+        </p>
+      </div>
+
+      <div class="tfcontent">
+        <div><h2 class="tftitle1">Lint home of chocolate</h2></div>
+        <img
+          src="img/123080800_10157565342602023_6297239641739405844_o-e1604069239824-1024x773.jpg"
+          class="tfsights1"
+        />
+        <p class="tf1text">
+          Experience the interactive world of chocolate for young and old. Visit
+          our Lindt Home of Chocolate, where the biggest Lindt Chocolate Shop
+          (500 m2) and the spectacular Lindt chocolate fountain are waiting for
+          you, as well as an interactive chocolate museum all about the Swiss
+          cultural heritage of chocolate. Dive into the world of chocolate and
+          experience something really special. Whether you come alone, with your
+          family and friends, or with colleagues, we look forward to your visit.
+        </p>
+      </div>
+
+      <div id="morningbox">Afternoon</div>
+
+      <div class="tfcontent">
+        <div><h2 class="tftitle2">Old Inn</h2></div>
+        <img src="img/804A2054.jpg" class="tfsights1" />
+        <p class="tf1text">
+          Set in a traditional pub environment, Old Inn is Zurich’s newest
+          Gastropub. Chef Tristan takes classic comfort dishes and elevates them
+          to new heights with a touch of culinary flair, earning 13 Gault &
+          Millau points.  The heart of our concept is sharing. Our dishes are
+          designed for communal enjoyment. So go ahead, order a selection of
+          plates and watch as your table becomes a canvas of flavors and colors.
+          Share the excitement of trying new tastes together, fostering a sense
+          of camaraderie and connection.
+        </p>
+      </div>
+
+      <div class="tfcontent">
+        <div><h2 class="tftitle3">Limmat River Cruise</h2></div>
+        <img src="img/25195_32001800.jpg" class="tfsights1" />
+        <p class="tf1text">
+          Past the historical guild houses, Zurich’s Town Hall, the Lindenhof
+          and the Grossmünster church: a Limmat River Cruise takes you from the
+          National Museum up the River Limmat to Lake Zurich and back again.
+          Since April 2023, the electric boats, “Fluvius”, “Navalis”, and
+          “Pontus”, have been operating on this route. The three new riverboats
+          are not only electrically driven for the first time, but also offer a
+          larger passenger capacity and are air-conditioned and wheelchair
+          accessible. Passengers can enjoy the views of the picturesque Old Town
+          and Lake Zurich through the glass roof from wherever they are sitting.
+        </p>
+      </div>
+
+      <div id="morningbox">Night</div>
+
+      <div class="tfcontent">
+        <div><h2 class="tftitle4">Swiss Chuchi</h2></div>
+        <img
+          src="img/web_zurich_gastronomie_swiss_chuchi_04.jpg"
+          class="tfsights1"
+        />
+        <p class="tf1text">
+          Whether in the open air of the bustling Niederdorf pedestrian precinct
+          or in the quaint Swiss ambience of the restaurant: Enjoy what your
+          heart desires – from the Adler Special fondue, through Raclette to the
+          Waadtländer fondue. From Alp-herder’s macaroni through Capuns to
+          Zurich ragout with rosti. From the first fondue parlour in the old
+          town of Zurich to the number one address for Swiss cheese and meat
+          specialities. The Swiss Chuchi restaurant attracts both locals and
+          people from far and wide who appreciate good food.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <a class="contact">Contact-us</a>
+        <a class="fa-solid fa-envelope fa-2xl"> </a>
+        <a class="fa-solid fa-phone fa-2xl"></a>
+        <a class="fa-brands fa-instagram fa-2xl"></a>
+        <div class="footer-right">All Copyright Content 2025, VisitZurich</div>
+      </div>
+    </footer>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
