@@ -16,20 +16,332 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Playwrite+DE+SAS:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
   </head>
 
   <body class="section">
     <!--Navigaitional bar-->
-    <nav>
-      <div class="nav">
-        <a class="active" href="index.html">VisitZurich</a>
-        <div class="nav-right">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="sights.html">Sights</a>
-          <a href="24hours.html">24 hours</a>
+    <div class="navbar">
+      <a href="index.html">VisitZurich</a>
+      <div class="nav-right">
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Sights
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a id="dummy">Sights</a>
+            <a href="#sight1" class="links">Grossmünster</a>
+            <a href="#sight2" class="links">Fraumünster</a>
+            <a href="#sight3" class="links">Uetliberg</a>
+            <a href="#sight4" class="links">Bahnhofstrasse</a>
+            <a href="#sight5" class="links">Lake Zurich</a>
+            <a href="#sight6" class="links">Zurich Opera House</a>
+            <a href="#sight7" class="links">Lindenhof</a>
+            <a href="#sight8" class="links2">National Museum Zurich</a>
+            <a href="#sight9" class="links">Niederdorf</a>
+            <a href="#sight10" class="links">Kunsthaus Zürich</a>
+          </div>
+        </div>
+
+        <a href="24hours.html">24 Hours</a>
+      </div>
+    </div>
+    <div class="titleboxsight">Sights</div>
+
+    <button onclick="topFunction()" id="myBtn" title="top">Back to top</button>
+    <div class="sights">
+      <div id="sight1">
+        <img src="img/Doppeltürme._Grossmünster_Zürich.jpg" class="imgsight" />
+        <div class="sight1title">Grossmünster</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          The Grossmünster Church is a former monastery built on the graves of
+          the city’s patron saints, Felix and Regula, and is the site of the
+          first secondary school, which according to legend, was founded by
+          Charlemagne. His statue stands on top of the south tower, the
+          Karlsturm. From the nave, 187 steps lead up to the viewing platform.
+          The strenuous climb is well worthwhile: at the top, six large
+          panoramic windows allow a beautiful view over the Old Town and the
+          lake. The terraces are closed for safety reasons.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <p><span style="color: #d52b1e">Adult: </span>CHF 5 = $6.26</p>
+          <p>
+            <span style="color: #d52b1e">Children/students: </span>CHF 2 = $2.50
+          </p>
+          <p><span style="color: #d52b1e">Zürich Card holders:</span> FREE!</p>
         </div>
       </div>
-    </nav>
+
+      <div id="sight2">
+        <img src="img/shutterstock_322193348.2048x1024.jpg" class="imgsight" />
+        <div id="sight2title">Fraumünster</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          Founded in 853 by King Louis the German, this church with its convent
+          was inhabited by the female members of the aristocracy of Europe. The
+          convent enjoyed the patronage of kings and the abbess the right to
+          mint coins in Zurich until well into the 13th century. Ownership of
+          the church and convent passed to the city of Zurich after the
+          Reformation.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <p><span style="color: #d52b1e">Adult: </span>CHF 5 = $6.26</p>
+          <p><span style="color: #d52b1e">Children/students: </span> FREE!</p>
+          <p><span style="color: #d52b1e">Zürich Card holders:</span> FREE!</p>
+        </div>
+      </div>
+
+      <div id="sight3">
+        <img src="img/4FICTi6PS5.jpeg" class="imgsight" />
+        <div id="sight3title">Uetliberg</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          At 871 meters (2,858 feet) above sea level, the Uetliberg towers over
+          the rooftops of Zurich. From the top, visitors are treated to a
+          magnificent panoramic view of the city, the lake, and the Alps. The
+          Uetliberg is particularly popular in November, as its summit is often
+          above the blanket of fog that frequently envelops the city at this
+          time of year. In winter, the hiking trails are transformed into
+          toboggan runs, while in summer, the mountain is a popular departure
+          point for well-marked hikes and mountain bike tours.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h1>Free!</h1>
+        </div>
+      </div>
+
+      <div id="sight4">
+        <img
+          src="img/web_zurich_tt_hub_bahnhofstrasse_1600x900.jpg"
+          class="imgsight"
+        />
+        <div id="sight4title">Bahnhofstrasse</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          You find numerous boutiques, department stores and timepiece stores
+          here, as well as at Paradeplatz – the Swiss banking center.
+          Bahnhofstrasse is just as popular with locals and visitors, and it is
+          always worth a visit. You can stroll relaxed along the lake in the
+          summer as well as enjoy mulled wine or hot chocolate at every corner
+          in the winter.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h2>Depends on what you are buying!</h2>
+        </div>
+      </div>
+
+      <div id="sight5">
+        <img src="img/caption.jpg" class="imgsight" />
+        <div id="sight5title">Lake Zurich</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          After Lake Geneva, Lake Neuchâtel, Lake Constance and Lake Lucerne,
+          Lake Zurich is one of Switzerland’s “Big Five” in terms of lakes. In
+          the past, it was mainly used as a traffic and transportation route,
+          but today it is a popular excursion destination for swimming, sailing,
+          boating, and picnicking on the shore.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h1>Free!</h1>
+        </div>
+      </div>
+
+      <div id="sight6">
+        <img
+          src="img/308de3da63c14de10e7d339204cb7df192a4ece0_770277879.jpg"
+          class="imgsight"
+        />
+        <div id="sight6title">Zurich Opera House</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          With numerous and aesthetically diverse opera productions and ballet
+          choreographies, concerts, and song recitals, as well as a
+          broadly-based program to promote young talent, Zurich Opera House is
+          one of the most productive and successful establishments of its kind
+          in Europe. The Opera House is one of Zurich's best-known landmarks and
+          offers fans access to the genre of opera from the beginnings of opera
+          history right through to the music of the 21st century. In addition,
+          it delights a huge and diverse audience every year with spectacular
+          open-air performances, such as “Opera for All” or “Ballet for All”.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h2>Depends on what is showing!</h2>
+        </div>
+      </div>
+
+      <div id="sight7">
+        <img src="img/Lindenhof_Zurich.jpg" class="imgsight" />
+        <div id="sight7title">Lindenhof</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          Lindenhof was also the scene of numerous historical events. In the 4th
+          century a Roman fort stood on Lindenhof – and in the 9th century the
+          grandson of Charlemagne built a regal palace as place of residence on
+          the very same site.This area continued to be a place for gatherings
+          for Zurich’s inhabitants right up to the beginning of the modern era.
+          For example, the oath sealing the Helvetic Constitution was taken on
+          the Lindenhof in 1798.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h1>Free!</h1>
+        </div>
+      </div>
+
+      <div id="sight8">
+        <img src="img/6e.jpg" class="imgsight" />
+        <div id="sight8title">National Museum Zurich</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          The exhibits in the rooms and halls of the National Museum tell much
+          about the history of Switzerland – from its very beginnings to the
+          present day, from warring Confederates to voting women. In addition,
+          socially relevant topics are examined in various special exhibitions.
+          Audio guides are available in various languages, either on a rental
+          device or via the “National Museum” smartphone app.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <p><span style="color: #d52b1e">Adult: </span>CHF 13 = $16.24</p>
+          <p></p>
+
+          <p>
+            <span style="color: #d52b1e">Concessions: </span>CHF 10 = $12.49
+          </p>
+          <p>
+            <span style="color: #d52b1e">Children/students: </span>CHF 2 = $2.50
+          </p>
+          <p><span style="color: #d52b1e">Zürich Card holders:</span> FREE!</p>
+        </div>
+      </div>
+
+      <div id="sight9">
+        <img
+          src="img/web_zuerich_Niederdorf_1280x960_24981.jpg"
+          class="imgsight"
+        />
+        <div id="sight9title">Niederdorf</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          Niederdorf is a pedestrian zone the same as Limmatquai, which runs
+          parallel. During the day, the pedestrian zone and many stores, which
+          are almost hidden in alleyways, entice you to shop. In the evening,
+          Niederdorf changes into a nightlife district for a very varied public
+          with its bars and street artists. The popular “Dörflifäscht” takes
+          place with many DJs, market booths, culinary delights, shows and
+          attractions at the end of August.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <h1>Free!</h1>
+        </div>
+      </div>
+
+      <div id="sight10">
+        <img
+          src="img/web_zuerich_erweiterungsbau_kunsthaus_1280x960_39017.jpg"
+          class="imgsight"
+        />
+        <div id="sight10title">Kunsthaus Zürich</div>
+        <h2 class="sight1subtitle">About</h2>
+        <p class="sight1text">
+          In two buildings, the Moser building and the extension designed by
+          David Chipperfield (opened in 2021), the Kunsthaus presents the
+          largest collection of Munch paintings outside Norway, famous names
+          such as Picasso, van Gogh, and Chagall, and leading representatives of
+          the Expressionist movement. In addition, it features key works from
+          late-20th and 21st centuries, for example by Warhol, Rothko, and
+          Beuys.
+        </p>
+
+        <div class="sight1prices">
+          <h3 class="sight1pricestitle">Prices</h3>
+        </div>
+        <div class="sight1priceslist">
+          <p><span style="color: #d52b1e">Regular: </span>CHF 31 = $38.72</p>
+          <p></p>
+          <p>
+            <span style="color: #d52b1e">Concessions: </span>CHF 24 = $29.98
+          </p>
+          <p><span style="color: #d52b1e">Zürich Card holders:</span> FREE!</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <a class="contact">Contact-us</a>
+        <a class="fa-solid fa-envelope fa-2xl"> </a>
+        <a class="fa-solid fa-phone fa-2xl"></a>
+        <a class="fa-brands fa-instagram fa-2xl"></a>
+        <div class="footer-right">All Copyright Content 2025, VisitZurich</div>
+      </div>
+    </footer>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
