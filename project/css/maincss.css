@@ -2,6 +2,8 @@ body {
   font-family: "Lexend", sans-serif;
   overflow-x: hidden;
   height: 100vh;
+  margin: 0;
+
 }
 
 /*Navigation bar*/
@@ -553,3 +555,4 @@ article {
   width: 75%;
   padding-bottom: 2%;
 }
+
