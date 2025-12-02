@@ -1,6 +1,7 @@
 body {
   font-family: "Lexend", sans-serif;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 /*Navigation bar*/
@@ -324,7 +325,7 @@ article {
 
 .sight1title {
   position: absolute;
-  top: 138%;
+  top: 143%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -336,7 +337,7 @@ article {
 }
 #sight2title {
   position: absolute;
-  top: 349%;
+  top: 362%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -348,7 +349,7 @@ article {
 }
 #sight3title {
   position: absolute;
-  top: 549%;
+  top: 570%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -361,7 +362,7 @@ article {
 
 #sight4title {
   position: absolute;
-  top: 738%;
+  top: 765%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -373,7 +374,7 @@ article {
 }
 #sight5title {
   position: absolute;
-  top: 933%;
+  top: 966%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -385,7 +386,7 @@ article {
 }
 #sight6title {
   position: absolute;
-  top: 1135%;
+  top: 1177%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -397,7 +398,7 @@ article {
 }
 #sight7title {
   position: absolute;
-  top: 1336%;
+  top: 1386%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -409,7 +410,7 @@ article {
 }
 #sight8title {
   position: absolute;
-  top: 1536%;
+  top: 1593%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -421,7 +422,7 @@ article {
 }
 #sight9title {
   position: absolute;
-  top: 1734%;
+  top: 1798%;
   right: 20px;
   background-color: #395968;
   color: white;
@@ -433,7 +434,7 @@ article {
 }
 #sight10title {
   position: absolute;
-  top: 1943%;
+  top: 2015%;
   right: 20px;
   background-color: #395968;
   color: white;
